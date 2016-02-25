@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "author": "Yoshio Varney",
+  "name": "NAME",
+  "description": "DESCRIPTION",
+  "version": "0.1",
+  "icons": {
+    "16": "assets/images/icon.png",
+    // "48": "assets/images/ticker48.png"
+  },
+
+  // "browser_action": {
+  //   "default_icon": "assets/images/icon.png",
+  //   "default_popup": "popup.html",
+  //   "default_title": "TITLE"
+  // },
+
+  // "page_action": {
+  //   "default_icon": "assets/images/icon.png",
+  //   "default_popup": "popup.html",
+  //   "default_title": "TITLE"
+  // },
+
+  "permissions": [
+
+  ],
+
+  "background": {
+    "scripts": [ "js/background.min.js" ]
+  },
+
+  "content_scripts": [{
+    "matches": [ ],
+    "js": [ "js/content.min.js" ],
+    "css": [ ]
+  }]
+}
